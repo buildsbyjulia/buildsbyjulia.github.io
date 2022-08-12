@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cheat Sheet</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <h1>
+        HTML Cheat Sheet
+    </h1>
+    <h2>How to Create a Table</h2>
+    <table>
+    <thead>
+        <tr>
+            <th scope="col">Tag</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+        </tr>
+    </thead>
+        <tr>
+            <th scope="row">&lt;table&gt;</th>
+            <td>Table</td>
+            <td>Obviously makes a table duhh</td>
+        </tr>
+
+        <tr>
+            <th scope="row">&lt;thead&gt;</th>
+            <td>Table Head</td>
+            <td>Section off tables column headings</td>
+        </tr>
+
+        <tr>
+            <th scope="row">&lt;tfoot&gt;</th>
+            <td>Table Footer</td>
+            <td>Seperate total & total data</td>
+        </tr>
+    </table>
+<div>
+    <h1>
+        Table Attributes
+    </h1>
+    <table>
+        <thead>
+        <tr>
+            <th scope="col">Attribute</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+        </tr>
+        </thead>
+        <tr>
+            <th scope="row">colspan</th>
+            <td>Column Span</td>
+            <td>Defines how many columns a td element should span. </td>
+        </tr>
+
+        <tr>
+            <th scope="row">rowspan</th>
+            <td>Row Span</td>
+            <td>Defines how many rows a td element should span. </td>
+        </tr>
+
+    </table>
+</div>
+</body>
+</html>
